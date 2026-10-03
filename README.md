@@ -21,6 +21,6 @@ Os exercícios foram divididos de acordo com os temas estudados:
 * **L05 - Laços de Repetição (`for` / `para`):** Otimização de contadores, processamento de faixas numéricas.
 * **Exercícios Faccat:** Foco em lógica comercial (cálculo de salários, comissões, sistemas de login, controlo de stock) utilizando **Seleção Aninhada** e **Seleção Concatenada**.
 
-## ⚙️ Como executar o projeto localmente
+## ⚙️ Como executar o projeto localmente?
 
 Para facilitar os testes sem precisar de configurar o Node.js, criei um ambiente de teste simples usando um único ficheiro `index.html`.
