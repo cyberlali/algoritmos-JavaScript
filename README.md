@@ -23,6 +23,6 @@ Os scripts cobrem desde operações matemáticas básicas até lógicas comercia
 * **HTML5**: Estrutura base atuando como ambiente hospedeiro para a execução dos scripts.
 * **VS Code**: Editor de código.
 
-## ⚙️ Como executar os testes localmente
+## ⚙️ Como executar os testes localmente?
 
 Para facilitar os testes sem a necessidade de configurar o Node.js, criei um ambiente simples de execução via `index.html`.
