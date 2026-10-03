@@ -1,26 +1,28 @@
-# 🚀 Algoritmos em JavaScript: Do VisualG para a Web
+# 🚀 Lógica de Programação em JavaScript (Manzano & Faccat)
 
-Este repositório contém a minha jornada de transição da lógica de programação estruturada em pseudocódigo (VisualG) para **JavaScript**. 
+Este repositório contém a resolução de dezenas de exercícios clássicos de algoritmos implementados inteiramente em **JavaScript**. Os problemas foram extraídos de duas das apostilas mais tradicionais de lógica de programação (Manzano e Faccat) e adaptados para rodar diretamente no navegador.
 
-Aqui estão centralizadas as resoluções de dezenas de exercícios clássicos de algoritmos (baseados nos materiais de Manzano e Faccat), todos refatorados e testados diretamente no navegador.
+## 📚 Conteúdo do Repositório
+
+Os scripts cobrem desde operações matemáticas básicas até lógicas comerciais complexas, divididos da seguinte forma:
+
+### 1. Apostila Manzano (Estruturas Básicas e Laços)
+* **L01 - Sequencial:** Cálculos matemáticos, geometria e conversões (moedas, temperaturas).
+* **L02 - Decisão (`if / else`):** Validações lógicas, equações de 2º grau (Bhaskara) e testes par/ímpar.
+* **L03 - Repetição (`while`):** Tabuadas, somatórios com condição de parada e série de Fibonacci.
+* **L04 - Repetição (`do...while`):** Acumuladores e cálculos com validação no final do laço.
+* **L05 - Repetição (`for`):** Contadores automáticos, potenciação manual e processamento de faixas numéricas.
+
+### 2. Apostila Faccat (Lógica de Negócios)
+* **Seleção Simples e Aninhada (`else if`):** Sistemas de login, controle de estoque e faixas de desconto progressivo.
+* **Cálculos Comerciais:** Processamento de salários, comissões de vendas, horas extras e composição de custos de veículos.
+* **Lógica Proposicional:** Avaliação de expressões usando operadores lógicos (`&&`, `||`, `!`).
 
 ## 🛠️ Tecnologias Utilizadas
-* **JavaScript (ES6+)**: Lógica principal, laços de repetição e estruturas de decisão.
-* **HTML5**: Estrutura base para execução dos scripts no navegador.
+* **JavaScript (ES6+)**: Implementação de toda a lógica central.
+* **HTML5**: Estrutura base atuando como ambiente hospedeiro para a execução dos scripts.
 * **VS Code**: Editor de código.
-* **Git & GitHub**: Versionamento de código e portefólio.
 
-## 📂 Estrutura das Listas de Exercícios
+## ⚙️ Como executar os testes localmente
 
-Os exercícios foram divididos de acordo com os temas estudados:
-
-* **L01 - Estruturas Sequenciais:** Operações matemáticas básicas, cálculos de área, conversão de temperaturas e moedas.
-* **L02 - Estruturas de Decisão (`if / else`):** Validações lógicas, equações de 2º grau (Bhaskara), verificação de números pares/ímpares.
-* **L03 - Laços de Repetição (`while`):** Tabuadas, somatórios, série de Fibonacci.
-* **L04 - Laços de Repetição (`do...while` / `repita`):** Validação de entradas, cálculos com condição de paragem, fatoriais.
-* **L05 - Laços de Repetição (`for` / `para`):** Otimização de contadores, processamento de faixas numéricas.
-* **Exercícios Faccat:** Foco em lógica comercial (cálculo de salários, comissões, sistemas de login, controlo de stock) utilizando **Seleção Aninhada** e **Seleção Concatenada**.
-
-## ⚙️ Como executar o projeto localmente?
-
-Para facilitar os testes sem precisar de configurar o Node.js, criei um ambiente de teste simples usando um único ficheiro `index.html`.
+Para facilitar os testes sem a necessidade de configurar o Node.js, criei um ambiente simples de execução via `index.html`.
